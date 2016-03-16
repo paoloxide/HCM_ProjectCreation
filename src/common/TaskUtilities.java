@@ -412,7 +412,7 @@ public class TaskUtilities{
 		
         Map<String, String> env = System.getenv();
         for (String envName : env.keySet()) {
-        	if(envName.contentEquals("PROJECT_NAME")){//PROJECT_NAME
+        	if(envName.contentEquals("HCM_PROJECT")){//PROJECT_NAME
                 rawText = env.get(envName);
         	}
         }
